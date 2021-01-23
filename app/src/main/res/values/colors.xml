@@ -8,8 +8,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="colorPrimary">@color/purple_500</color>
-    <color name="colorPrimaryDark">@color/purple_700</color>
-    <color name="colorAccent">@color/teal_200</color>
     <color name="dialogBackground">#60000000</color>
+
+    <color name="primary">#1C9F52</color>
+    <color name="primaryDark">#107E3D</color>
+    <color name="accent">#FF6D00</color>
+    <color name="accentDark">#D65C01</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
 </resources>
