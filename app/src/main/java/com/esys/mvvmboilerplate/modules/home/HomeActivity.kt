@@ -41,7 +41,7 @@ class HomeActivity : BaseActivity() {
 
     override fun observeViewModel() {
         //Observe Loading
-        homeViewModel.loading.observe(this, { isLoading ->
+        homeViewModel.getLoading().observe(this, { isLoading ->
             if (isLoading) {
                 loadingDialog.show()
             } else {
