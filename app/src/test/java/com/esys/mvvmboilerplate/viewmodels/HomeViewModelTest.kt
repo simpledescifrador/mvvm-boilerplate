@@ -17,12 +17,7 @@ import org.mockito.junit.MockitoJUnitRunner
 
 @ExperimentalCoroutinesApi
 @RunWith(MockitoJUnitRunner::class)
-class HomeViewModelTest {
-    @get:Rule
-    val rule: TestRule = InstantTaskExecutorRule()
-
-    @get:Rule
-    val coroutineScopeRule = MainCoroutineScopeRule()
+class HomeViewModelTest : BaseViewModelTest() {
 
     @Mock
     private lateinit var authRepository: AuthRepository
